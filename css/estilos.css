@@ -1,0 +1,74 @@
+/* Fondo y estilo general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a1cceb; /* azul claro */
+    color: #333;
+}
+
+/* Contenedor principal centrado */
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Títulos */
+h2 {
+    text-align: center;
+    color: #0d47a1; /* azul más oscuro */
+}
+
+/* Formularios */
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form input[type="submit"] {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1565c0;
+}
+
+/* Mensajes */
+p {
+    text-align: center;
+    color: #d32f2f;
+}
+
+/* Logo superior izquierdo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 150px;
+}
+
+a {
+    color: #0d47a1;
+    text-decoration: none;
+}
