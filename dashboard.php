@@ -13,8 +13,10 @@ $tipo = $_SESSION['tipo_usuario'];
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard | Biblioteca Virtual</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <style>
         body {
             padding: 40px 80px;
